@@ -1,78 +1,106 @@
-# C++ Programming – Unit II
+# C++ Programming - Unit I
 
 ## Student Information
 
-- **Student Name:** Sarthak Pawar
+- **Student Name:** Sarthak Santosh Pawar
 - **PRN:** 125UAD1338
-- **Class/Division:** SY_AIDS_C
-- **Course Name:** OOPS
+- **Class/Division:** SY-AIDS-C
+- **Course Name:** Object Oriented Programming using C++
+- **Unit:** I
+- **Topics Covered:** I - IV
 
-## Unit
+---
 
-**Unit II – Inheritance**
+## Unit I - Programs
 
-## Topics Covered
+This repository contains C++ programs based on the concepts covered in Unit I.
+Each program demonstrates a basic C++ programming or Object-Oriented Programming concept.
 
-- Base and Derived Classes
-- Protected Members
-- Constructors and Destructors in Derived Classes
-- Function Overriding
-- Class Hierarchies
-- Public and Private Inheritance
-- Types of Inheritance
-- Multiple Inheritance
-- Virtual Base Classes
-- Abstract Classes
-- Friend Classes
-- Nested Classes
+---
 
 ## List of Programs
 
-### Program 01 – Employee Payroll System
-Demonstrates inheritance using an Employee base class and derived employee types with different salary calculations.
+### Program 1: Basic Data Types
+**File:** `Program_1_Basic_Data_Types.cpp`
 
-### Program 02 – Payment Gateway
-Demonstrates hierarchical inheritance and an abstract base class for different payment methods.
+**Description:**  
+Demonstrates the use of basic data types such as `int`, `char`, and `float`
+to store and display student roll number, grade, and fee amount.
 
-### Program 03 – Vehicle Fleet Management
-Demonstrates inheritance using different types of vehicles such as trucks, delivery vans and bikes.
+### Program 2: If-Else
+**File:** `Program_2_If_Else.cpp`
 
-## Unit II Mini-Project
+**Description:**  
+Demonstrates the use of the `if-else` selection statement to check whether
+a student has passed or failed based on marks.
 
-### Banking System with Account Hierarchy
+### Program 3: Loop and Array
+**File:** `Program_3_Loop_and_Array.cpp`
 
-A banking system using a base `Account` class and derived classes:
+**Description:**  
+Demonstrates how to store multiple student marks in an array and use a
+`for` loop to display all the elements.
 
-- `SavingsAccount`
-- `CurrentAccount`
-- `FixedDepositAccount`
+### Program 4: Functions
+**File:** `Program_4_Functions.cpp`
 
-The project includes account details, deposit, withdrawal and interest calculation using virtual functions.
+**Description:**  
+Demonstrates the use of a function to perform addition of two numbers.
+It also demonstrates function declaration, function call, and function definition.
 
-## Repository Structure
+### Program 5: Class and Object
+**File:** `Program_5_Class_and_Object.cpp`
 
-OOP-Cpp-Unit-II/
+**Description:**  
+Demonstrates the basic concepts of Object-Oriented Programming using a
+`Student` class and its object to store and display student details.
 
-├── README.md
+### Program 6: Constructor and Destructor
+**File:** `Program_6_Constructor_and_Destructor.cpp`
 
-├── Program_01/
+**Description:**  
+Demonstrates the working of a constructor and destructor. The constructor
+is automatically called when an object is created, while the destructor is
+called when the object is destroyed.
 
-│   └── program01.cpp
+### Program 7: Static Member
+**File:** `Program_7_Static_Member.cpp`
 
-├── Program_02/
+**Description:**  
+Demonstrates the use of a static data member to count the number of objects
+created from a class.
 
-│   └── program02.cpp
+### Program 8: Inline and Friend Function
+**File:** `Program_8_Inline_and_Friend_Function.cpp`
 
-├── Program_03/
+**Description:**  
+Demonstrates the use of an inline member function and a friend function.
+The friend function is used to access private data of a class.
 
-│   └── program03.cpp
+---
 
-└── Unit_II_Mini_Project/
+## Concepts Covered
 
-    └── banking_system.cpp
+1. Basic Data Types
+2. Selection Statements
+3. Arrays
+4. Loops
+5. Functions
+6. Function Prototype
+7. Classes and Objects
+8. Constructors
+9. Destructors
+10. Static Data Members
+11. Inline Functions
+12. Friend Functions
 
-## Purpose
+---
 
-This repository contains the C++ programs completed for the Unit II CIE Activity.
+## How to Compile and Run
 
-The programs demonstrate the concepts of inheritance and related object-oriented programming techniques in C++.
+### Using G++
+
+Compile a program:
+
+```bash
+g++ Program_1_Basic_Data_Types.cpp -o program1
